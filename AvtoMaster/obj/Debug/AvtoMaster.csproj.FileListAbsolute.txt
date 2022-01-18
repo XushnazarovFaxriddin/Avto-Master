@@ -1,0 +1,13 @@
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\bin\Debug\AvtoMaster.exe.config
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\bin\Debug\AvtoMaster.exe
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\bin\Debug\AvtoMaster.pdb
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.Form1.resources
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.Properties.Resources.resources
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.csproj.GenerateResource.cache
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.exe
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.pdb
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.Main.resources
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.Tovarlar.resources
+C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.Mijozlar.resources
