@@ -11,3 +11,17 @@ C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.pdb
 C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.Main.resources
 C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.Tovarlar.resources
 C:\Users\user\source\repos\AvtoMaster\AvtoMaster\obj\Debug\AvtoMaster.Mijozlar.resources
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\bin\Debug\AvtoMaster.exe.config
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\bin\Debug\AvtoMaster.exe
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\bin\Debug\AvtoMaster.pdb
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.csproj.AssemblyReference.cache
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.csproj.SuggestedBindingRedirects.cache
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.Form1.resources
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.Main.resources
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.Mijozlar.resources
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.Properties.Resources.resources
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.Tovarlar.resources
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.csproj.GenerateResource.cache
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.csproj.CoreCompileInputs.cache
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.exe
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.pdb

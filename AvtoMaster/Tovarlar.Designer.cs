@@ -31,13 +31,15 @@ namespace AvtoMaster
         {
             this.components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.addBtn = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.TovarlarDataGridView = new System.Windows.Forms.DataGridView();
             this.DeleteBtn = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.edit = new System.Windows.Forms.DataGridViewButtonColumn();
             this.idDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nomiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.turiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -53,10 +55,11 @@ namespace AvtoMaster
             this.addBtn.BackColor = System.Drawing.SystemColors.MenuHighlight;
             this.addBtn.Font = new System.Drawing.Font("Trebuchet MS", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addBtn.ForeColor = System.Drawing.SystemColors.Window;
-            this.addBtn.Location = new System.Drawing.Point(12, 12);
+            this.addBtn.Location = new System.Drawing.Point(9, 10);
+            this.addBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.addBtn.Name = "addBtn";
             this.addBtn.RightToLeft = System.Windows.Forms.RightToLeft.No;
-            this.addBtn.Size = new System.Drawing.Size(56, 58);
+            this.addBtn.Size = new System.Drawing.Size(42, 47);
             this.addBtn.TabIndex = 0;
             this.addBtn.Text = "+";
             this.addBtn.UseVisualStyleBackColor = false;
@@ -68,9 +71,10 @@ namespace AvtoMaster
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Trebuchet MS", 28.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.label1.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label1.Location = new System.Drawing.Point(1063, 8);
+            this.label1.Location = new System.Drawing.Point(1023, 6);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(210, 61);
+            this.label1.Size = new System.Drawing.Size(165, 49);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tovarlar";
             this.label1.Click += new System.EventHandler(this.label1_Click);
@@ -82,14 +86,17 @@ namespace AvtoMaster
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel1.BackColor = System.Drawing.SystemColors.Window;
             this.panel1.Controls.Add(this.TovarlarDataGridView);
-            this.panel1.Location = new System.Drawing.Point(1, 86);
+            this.panel1.Location = new System.Drawing.Point(1, 70);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(3);
-            this.panel1.Size = new System.Drawing.Size(1283, 719);
+            this.panel1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.panel1.Size = new System.Drawing.Size(1188, 584);
             this.panel1.TabIndex = 2;
             // 
             // TovarlarDataGridView
             // 
+            this.TovarlarDataGridView.AllowUserToAddRows = false;
+            this.TovarlarDataGridView.AllowUserToDeleteRows = false;
             this.TovarlarDataGridView.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
@@ -113,22 +120,24 @@ namespace AvtoMaster
             this.nomiDataGridViewTextBoxColumn,
             this.turiDataGridViewTextBoxColumn,
             this.kmDataGridViewTextBoxColumn,
-            this.DeleteBtn});
+            this.DeleteBtn,
+            this.edit});
             this.TovarlarDataGridView.DataSource = this.tovarBindingSource1;
-            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.Desktop;
-            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
-            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.TovarlarDataGridView.DefaultCellStyle = dataGridViewCellStyle3;
-            this.TovarlarDataGridView.Location = new System.Drawing.Point(6, 6);
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Trebuchet MS", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.Desktop;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(192)))), ((int)(((byte)(192)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.TovarlarDataGridView.DefaultCellStyle = dataGridViewCellStyle4;
+            this.TovarlarDataGridView.Location = new System.Drawing.Point(4, 5);
+            this.TovarlarDataGridView.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.TovarlarDataGridView.Name = "TovarlarDataGridView";
             this.TovarlarDataGridView.ReadOnly = true;
             this.TovarlarDataGridView.RowHeadersWidth = 51;
             this.TovarlarDataGridView.RowTemplate.Height = 24;
-            this.TovarlarDataGridView.Size = new System.Drawing.Size(1271, 707);
+            this.TovarlarDataGridView.Size = new System.Drawing.Size(1179, 574);
             this.TovarlarDataGridView.TabIndex = 0;
             this.TovarlarDataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.TovarlarDataGridView_CellContentClick);
             // 
@@ -141,14 +150,29 @@ namespace AvtoMaster
             dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
             this.DeleteBtn.DefaultCellStyle = dataGridViewCellStyle2;
             this.DeleteBtn.HeaderText = "O\'chirish";
-            this.DeleteBtn.MinimumWidth = 6;
+            this.DeleteBtn.MinimumWidth = 35;
             this.DeleteBtn.Name = "DeleteBtn";
             this.DeleteBtn.ReadOnly = true;
             this.DeleteBtn.Width = 125;
             // 
+            // edit
+            // 
+            this.edit.DataPropertyName = "edit";
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.edit.DefaultCellStyle = dataGridViewCellStyle3;
+            this.edit.HeaderText = "Tahrirlash";
+            this.edit.MinimumWidth = 35;
+            this.edit.Name = "edit";
+            this.edit.ReadOnly = true;
+            this.edit.Resizable = System.Windows.Forms.DataGridViewTriState.False;
+            this.edit.SortMode = System.Windows.Forms.DataGridViewColumnSortMode.Automatic;
+            this.edit.Width = 125;
+            // 
             // idDataGridViewTextBoxColumn
             // 
             this.idDataGridViewTextBoxColumn.DataPropertyName = "Id";
+            this.idDataGridViewTextBoxColumn.Frozen = true;
             this.idDataGridViewTextBoxColumn.HeaderText = "Id";
             this.idDataGridViewTextBoxColumn.MinimumWidth = 35;
             this.idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
@@ -188,13 +212,14 @@ namespace AvtoMaster
             // 
             // Tovarlar
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1285, 805);
+            this.ClientSize = new System.Drawing.Size(1190, 654);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.addBtn);
-            this.MinimumSize = new System.Drawing.Size(500, 500);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.MinimumSize = new System.Drawing.Size(379, 414);
             this.Name = "Tovarlar";
             this.Text = "Tovarlar";
             this.Load += new System.EventHandler(this.Tovarlar_Load);
@@ -218,5 +243,6 @@ namespace AvtoMaster
         private System.Windows.Forms.DataGridViewTextBoxColumn turiDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn kmDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewButtonColumn DeleteBtn;
+        private System.Windows.Forms.DataGridViewButtonColumn edit;
     }
 }

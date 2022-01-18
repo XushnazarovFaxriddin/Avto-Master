@@ -13,5 +13,6 @@ namespace AvtoMaster.Yordamchi
         public string Turi { get; set; }
         public double Km { get; set; }
         public string delete { get; set; }
+        public string edit {get; set; } 
     }
 }

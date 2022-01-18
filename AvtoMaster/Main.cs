@@ -43,5 +43,13 @@ namespace AvtoMaster
             tovarlar.ShowDialog();
             Show();
         }
+
+        private void MijozlarBtn_Click(object sender, EventArgs e)
+        {
+            Mijozlar tovarlar = new Mijozlar();
+            Hide();
+            tovarlar.ShowDialog();
+            Show();
+        }
     }
 }

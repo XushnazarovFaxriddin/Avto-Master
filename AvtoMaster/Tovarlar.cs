@@ -32,7 +32,8 @@ namespace AvtoMaster
                     Nomi = "Moy " + i,
                     Turi = "zo'ridan",
                     Km = 11.500,
-                    delete="O'chirish"
+                    delete="O'chirish",
+                    edit="Tahrirlash"
                 });
         }
         private void TovarlarDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)

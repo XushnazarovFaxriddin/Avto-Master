@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AvtoMaster.Yordamchi;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,22 @@ namespace AvtoMaster
         public Mijozlar()
         {
             InitializeComponent();
+        }
+
+        private void Mijozlar_Load(object sender, EventArgs e)
+        {
+            for (int i = 0; i < 100; i++)
+                mijozBindingSource.Add(new Mijoz()
+                {
+                    Id = i,
+                    FIO = $"Faxriddin{i} Xushnazarov{i} Farhod o'gli{i}",
+                    Tel=$"+9989{i}-683-15-55",
+                    AvtomobileNomi="Matiz "+i,
+                    AvtomobileRaqami="80 W 30"+i+" DA",
+                    tovarId=i,
+                    delete="O'chirish",
+                    edit="Tahrirlash"
+                });
         }
     }
 }

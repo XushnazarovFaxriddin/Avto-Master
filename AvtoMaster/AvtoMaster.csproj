@@ -95,6 +95,7 @@
     <EmbeddedResource Include="Tovarlar.resx">
       <DependentUpon>Tovarlar.cs</DependentUpon>
     </EmbeddedResource>
+    <None Include="Properties\DataSources\AvtoMaster.Yordamchi.Mijoz.datasource" />
     <None Include="Properties\DataSources\AvtoMaster.Yordamchi.Tovar.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

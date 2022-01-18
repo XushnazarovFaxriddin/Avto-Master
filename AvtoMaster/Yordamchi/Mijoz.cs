@@ -12,10 +12,12 @@ namespace AvtoMaster.Yordamchi
         public string FIO { get; set; }
         public string Tel { get; set; }
         public string AvtomobileNomi { get; set; }
-        public string AvtoRaqam { get; set; }
+        public string AvtomobileRaqami { get; set; }
         public int tovarId { get; set; }
         public DateTime olganVaqti { get; set; }
         public DateTime TugashVaqti { get; set; }
+        public string  delete { get; set; }
+        public string edit { get; set; }
 
     }
 }
