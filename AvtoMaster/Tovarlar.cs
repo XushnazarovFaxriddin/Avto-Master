@@ -20,7 +20,8 @@ namespace AvtoMaster
 
         private void addBtn_Click(object sender, EventArgs e)
         {
-
+            AddTovar addTovar = new AddTovar();
+            addTovar.ShowDialog();
         }
 
         private void Tovarlar_Load(object sender, EventArgs e)

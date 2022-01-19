@@ -25,3 +25,5 @@ C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.csproj.Ge
 C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.csproj.CoreCompileInputs.cache
 C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.exe
 C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.pdb
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.AddTovar.resources
+C:\Users\USER\source\repos\Avto-Master\AvtoMaster\obj\Debug\AvtoMaster.AddMijoz.resources

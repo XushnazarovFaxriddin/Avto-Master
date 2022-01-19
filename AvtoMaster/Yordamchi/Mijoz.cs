@@ -13,9 +13,9 @@ namespace AvtoMaster.Yordamchi
         public string Tel { get; set; }
         public string AvtomobileNomi { get; set; }
         public string AvtomobileRaqami { get; set; }
-        public int tovarId { get; set; }
-        public DateTime olganVaqti { get; set; }
-        public DateTime TugashVaqti { get; set; }
+        public string tovar { get; set; }
+        public string olganVaqti { get; set; }
+        public string TugashVaqti { get; set; }
         public string  delete { get; set; }
         public string edit { get; set; }
 

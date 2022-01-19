@@ -28,10 +28,17 @@ namespace AvtoMaster
                     Tel=$"+9989{i}-683-15-55",
                     AvtomobileNomi="Matiz "+i,
                     AvtomobileRaqami="80 W 30"+i+" DA",
-                    tovarId=i,
+                    tovar=i.ToString(),
+                    olganVaqti="12.02.2021",
+                    TugashVaqti="11.02.2022",
                     delete="O'chirish",
                     edit="Tahrirlash"
                 });
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
         }
     }
 }

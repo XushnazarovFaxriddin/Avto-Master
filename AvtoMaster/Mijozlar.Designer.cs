@@ -44,7 +44,7 @@ namespace AvtoMaster
             this.telDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.avtomobileNomiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.AvtomobileRaqami = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.TovarId = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Tovar = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.olganVaqtiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.tugashVaqtiDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.delete = new System.Windows.Forms.DataGridViewButtonColumn();
@@ -60,7 +60,7 @@ namespace AvtoMaster
             this.addBtn.Font = new System.Drawing.Font("Trebuchet MS", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.addBtn.ForeColor = System.Drawing.SystemColors.Window;
             this.addBtn.Location = new System.Drawing.Point(9, 10);
-            this.addBtn.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.addBtn.Margin = new System.Windows.Forms.Padding(2);
             this.addBtn.Name = "addBtn";
             this.addBtn.RightToLeft = System.Windows.Forms.RightToLeft.No;
             this.addBtn.Size = new System.Drawing.Size(42, 46);
@@ -117,7 +117,7 @@ namespace AvtoMaster
             this.telDataGridViewTextBoxColumn,
             this.avtomobileNomiDataGridViewTextBoxColumn,
             this.AvtomobileRaqami,
-            this.TovarId,
+            this.Tovar,
             this.olganVaqtiDataGridViewTextBoxColumn,
             this.tugashVaqtiDataGridViewTextBoxColumn,
             this.delete,
@@ -132,6 +132,7 @@ namespace AvtoMaster
             this.dataGridView1.RowsDefaultCellStyle = dataGridViewCellStyle4;
             this.dataGridView1.Size = new System.Drawing.Size(1348, 627);
             this.dataGridView1.TabIndex = 0;
+            this.dataGridView1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellContentClick);
             // 
             // mijozBindingSource
             // 
@@ -181,14 +182,13 @@ namespace AvtoMaster
             this.AvtomobileRaqami.Name = "AvtomobileRaqami";
             this.AvtomobileRaqami.ReadOnly = true;
             // 
-            // TovarId
+            // Tovar
             // 
-            this.TovarId.DataPropertyName = "tovarId";
-            this.TovarId.HeaderText = "Tovar Id";
-            this.TovarId.MinimumWidth = 25;
-            this.TovarId.Name = "TovarId";
-            this.TovarId.ReadOnly = true;
-            this.TovarId.Width = 45;
+            this.Tovar.DataPropertyName = "tovar";
+            this.Tovar.HeaderText = "Tovar";
+            this.Tovar.MinimumWidth = 25;
+            this.Tovar.Name = "Tovar";
+            this.Tovar.ReadOnly = true;
             // 
             // olganVaqtiDataGridViewTextBoxColumn
             // 
@@ -236,7 +236,7 @@ namespace AvtoMaster
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.addBtn);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.MinimumSize = new System.Drawing.Size(604, 495);
             this.Name = "Mijozlar";
             this.Text = "Mijozlar";
@@ -261,7 +261,7 @@ namespace AvtoMaster
         private System.Windows.Forms.DataGridViewTextBoxColumn telDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn avtomobileNomiDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn AvtomobileRaqami;
-        private System.Windows.Forms.DataGridViewTextBoxColumn TovarId;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Tovar;
         private System.Windows.Forms.DataGridViewTextBoxColumn olganVaqtiDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn tugashVaqtiDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewButtonColumn delete;
